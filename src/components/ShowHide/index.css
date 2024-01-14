@@ -1,0 +1,64 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-heading {
+  color: #ffffff;
+  text-align: center;
+}
+.name-container {
+  text-align: center;
+
+  padding: 20px;
+}
+
+.nameBtn {
+  padding: 7px;
+  background-color: #ffffff;
+  color: #dd1264;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+  border: none;
+  border-radius: 8px;
+}
+
+.name {
+  background-color: #fddddb;
+  padding: 20px;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 20px;
+
+  border: none;
+  border-radius: 10px;
+}
+
+.show {
+  display: 'block';
+}
+.hide {
+  display: 'd-none';
+}
+
+@media (max-width: 576px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
